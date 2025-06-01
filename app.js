@@ -8,7 +8,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 app.get('/name', (req, res) => {
-  res.send(`Hello, ${req.query.n}!`);
+  res.send(`Hello, Ayush!`);
 });
 
 app.listen(port, () => {
